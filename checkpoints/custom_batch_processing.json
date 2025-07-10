@@ -1,0 +1,22 @@
+{
+  "job_name": "custom_batch_processing",
+  "saved_at": 1752178628.6098356,
+  "data": {
+    "processed_items": {
+      "362": {
+        "page_number": 362,
+        "downloaded": true,
+        "extracted_columns": true,
+        "ocr_completed": false,
+        "json_parsed": false,
+        "output_files": {
+          "raw_image": "data\\raw_images\\1900_0362.jpg"
+        }
+      }
+    },
+    "last_index": 1,
+    "total_items": 1,
+    "timestamp": 1752178628.6098356,
+    "completed": true
+  }
+}

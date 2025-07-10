@@ -1,0 +1,26 @@
+2025-07-10 15:16:46,496 [INFO] __main__: Starting batch processing for pages: [362]
+2025-07-10 15:16:46,497 [INFO] src.utils.checkpoint_manager: CheckpointManager initialized with dir: checkpoints
+2025-07-10 15:16:46,497 [INFO] src.utils.batch_processor: BatchProcessor initialized with batch_size=5
+2025-07-10 15:16:46,497 [INFO] src.utils.batch_processor: Starting new batch job: 1 items
+2025-07-10 15:16:46,503 [INFO] main_processor: Processing page 362
+2025-07-10 15:16:46,503 [INFO] src.web_scraper.directory_scraper: DirectoryScraper initialized with output_dir: data/raw_images
+2025-07-10 15:16:46,504 [INFO] src.web_scraper.directory_scraper: Downloading 1 specific pages
+2025-07-10 15:16:55,366 [INFO] src.web_scraper.directory_scraper: Successfully downloaded: 1900_0362.jpg (4226KB)
+2025-07-10 15:16:55,368 [INFO] src.web_scraper.directory_scraper: Downloaded page sequence 362
+2025-07-10 15:16:56,370 [INFO] src.web_scraper.directory_scraper: Successfully downloaded 1 pages
+2025-07-10 15:16:56,371 [INFO] main_processor: Downloaded: data\raw_images\1900_0362.jpg
+2025-07-10 15:16:56,372 [INFO] src.preprocessing.column_extractor: StructuralLineDetector initialized with config: {'blur_kernel': 3, 'canny_low': 100, 'canny_high': 200, 'hough_threshold': 1200, 'max_line_gap': 10, 'line_thickness': 4, 'median_blur_kernel': 5, 'bilateral_filter_d': 9, 'bilateral_filter_sigma_color': 75, 'bilateral_filter_sigma_space': 75, 'clahe_clip_limit': 2.0, 'clahe_tile_grid_size': (8, 8), 'morph_kernel_size': (2, 2)}
+2025-07-10 15:16:56,375 [INFO] src.preprocessing.column_extractor: CityDirectoryExtractor initialized with output_dir: data/processed_images
+2025-07-10 15:16:56,634 [INFO] src.preprocessing.column_extractor: Successfully loaded: 1900_0362.jpg
+2025-07-10 15:17:08,322 [INFO] src.preprocessing.column_extractor: Processing image 0: 1900_0362.jpg
+2025-07-10 15:17:08,323 [INFO] src.preprocessing.column_extractor:   Detected page type: left
+2025-07-10 15:17:08,604 [INFO] src.preprocessing.column_extractor:   Saved: 1900_0362_left_col.jpg and 1900_0362_right_col.jpg
+2025-07-10 15:17:08,605 [INFO] src.preprocessing.column_extractor:   Left column size: (3368, 1364)
+2025-07-10 15:17:08,605 [INFO] src.preprocessing.column_extractor:   Right column size: (3377, 1386)
+2025-07-10 15:17:08,605 [INFO] main_processor: Column extraction completed
+2025-07-10 15:17:08,606 [INFO] src.ocr.ocr_engine: TesseractEngine initialized
+2025-07-10 15:17:08,606 [INFO] src.ocr.text_cleaner: TextCleaner initialized
+2025-07-10 15:17:08,606 [INFO] src.preprocessing.image_processor: ImageProcessor initialized with config: {}
+2025-07-10 15:17:08,606 [INFO] src.ocr.text_extractor: TextExtractor initialized
+2025-07-10 15:17:08,607 [ERROR] main_processor: Error processing page 362: 'TextExtractor' object has no attribute 'process_column_images'
+2025-07-10 15:17:08,611 [INFO] src.utils.batch_processor: Batch processing complete: 1 items processed

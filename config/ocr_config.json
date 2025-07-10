@@ -1,0 +1,73 @@
+{
+  "tesseract": {
+    "psm": 6,
+    "oem": 3,
+    "lang": "eng",
+    "config_string": "--psm 6 --oem 3",
+    "whitelist": "",
+    "blacklist": "",
+    "timeout": 30
+  },
+  "preprocessing": {
+    "enable_denoising": true,
+    "enable_contrast_enhancement": true,
+    "enable_binarization": true,
+    "enable_morphological_operations": true,
+    "median_blur_kernel": 5,
+    "bilateral_filter": {
+      "d": 9,
+      "sigma_color": 75,
+      "sigma_space": 75
+    },
+    "clahe": {
+      "clip_limit": 2.0,
+      "tile_grid_size": [8, 8]
+    },
+    "morphological": {
+      "kernel_type": "ellipse",
+      "kernel_size": [2, 2],
+      "operation": "opening",
+      "iterations": 1
+    },
+    "threshold": {
+      "method": "otsu",
+      "adaptive_method": "gaussian",
+      "adaptive_block_size": 11,
+      "adaptive_c": 2
+    }
+  },
+  "postprocessing": {
+    "enable_text_cleaning": true,
+    "remove_noise_characters": true,
+    "merge_continuation_lines": true,
+    "expand_abbreviations": true,
+    "min_line_length": 3,
+    "noise_characters": "~`!@#$%^&*()_+=[]{}|\\:;\"'<>?,./",
+    "allowed_leading_chars": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789&",
+    "continuation_indicators": [
+      "starts_with_digit",
+      "starts_with_lowercase",
+      "very_short_line",
+      "common_continuation_words"
+    ],
+    "common_continuation_words": ["Co", "same", "Co,", "Inc", "Ltd", "Corp"]
+  },
+  "quality_control": {
+    "min_confidence": 0.6,
+    "enable_spell_check": false,
+    "dictionary_path": "",
+    "custom_words": [
+      "Minneapolis",
+      "Hennepin",
+      "Nicollet",
+      "Washington",
+      "University"
+    ]
+  },
+  "output": {
+    "preserve_formatting": true,
+    "include_confidence_scores": false,
+    "include_bounding_boxes": false,
+    "encoding": "utf-8"
+  }
+}

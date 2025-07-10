@@ -1,0 +1,43 @@
+2025-07-10 14:47:46,982 [INFO] __main__: Processing page 362
+2025-07-10 14:47:46,984 [INFO] src.web_scraper.image_downloader: ImageDownloader initialized with 3 retry attempts
+2025-07-10 14:47:46,984 [INFO] src.web_scraper.directory_scraper: DirectoryScraper initialized with output_dir: data/raw_images
+2025-07-10 14:47:46,984 [INFO] src.web_scraper.directory_scraper: Downloading 1 specific pages
+2025-07-10 14:47:47,707 [WARNING] src.web_scraper.image_downloader: Attempt 1 failed for 1900_0362.jpg: 500 Server Error:  for url: https://box2.nmtvault.com/Hennepin2/jsp/RcWebImageViewer.jsp?doc_id=7083e412-1de2-42fe-b070-7f82e5c869a4/mnmhcl00/20130429&pg_seq=00000362
+2025-07-10 14:47:48,801 [WARNING] src.web_scraper.image_downloader: Attempt 2 failed for 1900_0362.jpg: 500 Server Error:  for url: https://box2.nmtvault.com/Hennepin2/jsp/RcWebImageViewer.jsp?doc_id=7083e412-1de2-42fe-b070-7f82e5c869a4/mnmhcl00/20130429&pg_seq=00000362
+2025-07-10 14:47:50,926 [WARNING] src.web_scraper.image_downloader: Attempt 3 failed for 1900_0362.jpg: 500 Server Error:  for url: https://box2.nmtvault.com/Hennepin2/jsp/RcWebImageViewer.jsp?doc_id=7083e412-1de2-42fe-b070-7f82e5c869a4/mnmhcl00/20130429&pg_seq=00000362
+2025-07-10 14:47:50,926 [ERROR] src.web_scraper.image_downloader: Failed to download 1900_0362.jpg after 3 attempts
+2025-07-10 14:47:51,926 [INFO] src.web_scraper.directory_scraper: Successfully downloaded 0 pages
+2025-07-10 14:47:51,927 [ERROR] __main__: Failed to download page 362
+2025-07-10 15:34:45,342 [INFO] __main__: Processing page 362
+2025-07-10 15:34:45,343 [INFO] src.web_scraper.directory_scraper: DirectoryScraper initialized with output_dir: data/raw_images
+2025-07-10 15:34:45,344 [INFO] src.web_scraper.directory_scraper: Downloading 1 specific pages
+2025-07-10 15:34:45,344 [INFO] src.web_scraper.directory_scraper: File already exists: 1900_0362.jpg
+2025-07-10 15:34:45,344 [INFO] src.web_scraper.directory_scraper: Downloaded page sequence 362
+2025-07-10 15:34:46,345 [INFO] src.web_scraper.directory_scraper: Successfully downloaded 1 pages
+2025-07-10 15:34:46,346 [INFO] __main__: Downloaded: data\raw_images\1900_0362.jpg
+2025-07-10 15:34:46,346 [INFO] src.preprocessing.column_extractor: StructuralLineDetector initialized with config: {'blur_kernel': 3, 'canny_low': 100, 'canny_high': 200, 'hough_threshold': 1200, 'max_line_gap': 10, 'line_thickness': 4, 'median_blur_kernel': 5, 'bilateral_filter_d': 9, 'bilateral_filter_sigma_color': 75, 'bilateral_filter_sigma_space': 75, 'clahe_clip_limit': 2.0, 'clahe_tile_grid_size': (8, 8), 'morph_kernel_size': (2, 2)}
+2025-07-10 15:34:46,348 [INFO] src.preprocessing.column_extractor: CityDirectoryExtractor initialized with output_dir: data/processed_images
+2025-07-10 15:34:46,518 [INFO] src.preprocessing.column_extractor: Successfully loaded: 1900_0362.jpg
+2025-07-10 15:34:59,157 [INFO] src.preprocessing.column_extractor: Processing image 0: 1900_0362.jpg
+2025-07-10 15:34:59,158 [INFO] src.preprocessing.column_extractor:   Detected page type: left
+2025-07-10 15:34:59,407 [INFO] src.preprocessing.column_extractor:   Saved: 1900_0362_left_col.jpg and 1900_0362_right_col.jpg
+2025-07-10 15:34:59,408 [INFO] src.preprocessing.column_extractor:   Left column size: (3368, 1364)
+2025-07-10 15:34:59,408 [INFO] src.preprocessing.column_extractor:   Right column size: (3377, 1386)
+2025-07-10 15:34:59,408 [INFO] __main__: Column extraction completed
+2025-07-10 15:34:59,408 [INFO] src.ocr.ocr_engine: TesseractEngine initialized
+2025-07-10 15:34:59,408 [INFO] src.ocr.text_cleaner: TextCleaner initialized
+2025-07-10 15:34:59,408 [INFO] src.preprocessing.image_processor: ImageProcessor initialized with config: {}
+2025-07-10 15:34:59,409 [INFO] src.ocr.text_extractor: TextExtractor initialized
+2025-07-10 15:35:01,752 [INFO] src.ocr.text_extractor: Extracted 2423 characters from 1900_0362_left_col.jpg
+2025-07-10 15:35:01,754 [INFO] src.ocr.text_extractor: Processed 1900_0362_left_col.jpg -> 1900_0362_left_col.txt
+2025-07-10 15:35:03,847 [INFO] src.ocr.text_extractor: Extracted 2274 characters from 1900_0362_right_col.jpg
+2025-07-10 15:35:03,848 [INFO] src.ocr.text_extractor: Processed 1900_0362_right_col.jpg -> 1900_0362_right_col.txt
+2025-07-10 15:35:03,849 [INFO] __main__: OCR processing completed
+2025-07-10 15:35:03,849 [INFO] src.parsing.text_analyzer: TextAnalyzer initialized
+2025-07-10 15:35:03,849 [INFO] src.parsing.text_analyzer: TextAnalyzer initialized
+2025-07-10 15:35:03,850 [INFO] src.parsing.entry_extractor: EntryExtractor initialized for year 1900
+2025-07-10 15:35:03,850 [INFO] src.parsing.json_parser: CityDirectoryParser initialized for year 1900
+2025-07-10 15:35:03,852 [INFO] src.parsing.json_parser: Parsed 43 entries from data\ocr_text\1900_0362_left_col.txt
+2025-07-10 15:35:03,856 [INFO] src.parsing.json_parser: Saved 43 entries to data\output_json\page_362.json
+2025-07-10 15:35:03,856 [INFO] __main__: JSON parsing completed: 43 entries
+2025-07-10 15:35:03,857 [INFO] __main__: Page 362 processing completed successfully

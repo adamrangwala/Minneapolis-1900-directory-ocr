@@ -1,0 +1,1002 @@
+[
+  {
+    "FirstName": "Ira",
+    "LastName": "Cook",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 1,
+    "raw_text": "Cook Ira M, bookkeeper G C Christian, rms 802 2d avenue south.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: M, bookkeeper G C Christian, rms 802 2d avenue south."
+    ]
+  },
+  {
+    "FirstName": "H",
+    "LastName": "Jacob",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 2,
+    "raw_text": "Jacob H, lawyer 507 Kasota bidg, residence 1318 Mt Curve avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: lawyer 507 Kasota bidg, residence 1318 Mt Curve avenue."
+    ]
+  },
+  {
+    "FirstName": "James",
+    "LastName": "Jacob",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 3,
+    "raw_text": "James, clerk P J Kinnane, boards 1607 north 4th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: clerk P J Kinnane, boards 1607 north 4th."
+    ]
+  },
+  {
+    "FirstName": "east",
+    "LastName": "James",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 4,
+    "raw_text": "James east, traveling agent, residence 2804 Blaisdell avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: traveling agent, residence 2804 Blaisdell avenue."
+    ]
+  },
+  {
+    "FirstName": "H",
+    "LastName": "James",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 5,
+    "raw_text": "James H, barber Nicollet avenue south east corner",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: barber Nicollet avenue south east corner"
+    ]
+  },
+  {
+    "FirstName": "High",
+    "LastName": "James",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 6,
+    "raw_text": "High, boards Hotel Pauly.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: boards Hotel Pauly."
+    ]
+  },
+  {
+    "FirstName": "residence",
+    "LastName": "James",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 7,
+    "raw_text": "James residence, foreman Minn L O Paint Co residence 40 south east Oak.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: foreman Minn L O Paint Co residence 40 south east Oak."
+    ]
+  },
+  {
+    "FirstName": "west",
+    "LastName": "James",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 8,
+    "raw_text": "James west, boards Soldiers’ Home.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: boards Soldiers’ Home."
+    ]
+  },
+  {
+    "FirstName": "Jennie",
+    "LastName": "James",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 9,
+    "raw_text": "Jennie, clerk south east Olson Co, boards 2732 Bloom ington avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: clerk south east Olson Co, boards 2732 Bloom ington avenue."
+    ]
+  },
+  {
+    "FirstName": "4H",
+    "LastName": "Jonn",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 10,
+    "raw_text": "Jonn 4H, elevator operator The Plymouth, residence St aul",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: elevator operator The Plymouth, residence St aul"
+    ]
+  },
+  {
+    "FirstName": "H",
+    "LastName": "John",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 11,
+    "raw_text": "John H, tehr South High schgol, residence 837 15th avenue south.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: tehr South High schgol, residence 837 15th avenue south."
+    ]
+  },
+  {
+    "FirstName": "M",
+    "LastName": "John",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 12,
+    "raw_text": "John M, clerk south east Olson Co, boards 1607 north 4th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: clerk south east Olson Co, boards 1607 north 4th."
+    ]
+  },
+  {
+    "FirstName": "M.",
+    "LastName": "John",
+    "Spouse": "",
+    "Occupation": "machinist",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 13,
+    "raw_text": "John M. machinist Soo Shops, residence 942 27th avenue north east.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: machinist Soo Shops, residence 942 27th avenue north east."
+    ]
+  },
+  {
+    "FirstName": "Joseph",
+    "LastName": "John",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 14,
+    "raw_text": "Joseph, Jab Mpls Brew Co, boards 171 lith avenue north east.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: Jab Mpls Brew Co, boards 171 lith avenue north east."
+    ]
+  },
+  {
+    "FirstName": "M",
+    "LastName": "Juliette",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 15,
+    "raw_text": "Juliette M, student, boards 3418 Park avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: student, boards 3418 Park avenue."
+    ]
+  },
+  {
+    "FirstName": "L",
+    "LastName": "Judson",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 16,
+    "raw_text": "Judson L, switchman CM & St P Ky, residence 1911 east 2544. yJ Burwell, stereotyper Mpls Journal rms 1351 Nicollet avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: switchman CM & St P Ky, residence 1911 east 2544. yJ Burwell, stereotyper Mpls Journal rms 1351 Nicollet avenue."
+    ]
+  },
+  {
+    "FirstName": "Laura",
+    "LastName": "Mrs",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 17,
+    "raw_text": "Mrs Laura west, stenographer Am Bridge Co boards 1016 south east 7th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: west, stenographer Am Bridge Co boards 1016 south east 7th."
+    ]
+  },
+  {
+    "FirstName": "Lawrence",
+    "LastName": "Mrs",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 18,
+    "raw_text": "Lawrence, carpenter, residence 2112 4th avenue south.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: carpenter, residence 2112 4th avenue south."
+    ]
+  },
+  {
+    "FirstName": "Lelia",
+    "LastName": "Mrs",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 19,
+    "raw_text": "Lelia, seamstress, boards 3307 Bryant avenue south.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: seamstress, boards 3307 Bryant avenue south."
+    ]
+  },
+  {
+    "FirstName": "G",
+    "LastName": "Louis",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 20,
+    "raw_text": "Louis G, student U of M, boards 56 Clarence avenue 8s east.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: student U of M, boards 56 Clarence avenue 8s east."
+    ]
+  },
+  {
+    "FirstName": "L",
+    "LastName": "Louis",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 21,
+    "raw_text": "L, east estate of, Charles east Cook executor 607 The Phoenix.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: east estate of, Charles east Cook executor 607 The Phoenix."
+    ]
+  },
+  {
+    "FirstName": "south",
+    "LastName": "Mabelle",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 22,
+    "raw_text": "Mabelle south, seamstress, boards 3222 Elliot avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: seamstress, boards 3222 Elliot avenue."
+    ]
+  },
+  {
+    "FirstName": "(widow",
+    "LastName": "Mary",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 23,
+    "raw_text": "Mary (widow George A), boards 1231 south 9th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: George A), boards 1231 south 9th."
+    ]
+  },
+  {
+    "FirstName": "(widow",
+    "LastName": "Mary",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 24,
+    "raw_text": "Mary (widow Wm D), boards 619 9th avenue south east.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: Wm D), boards 619 9th avenue south east."
+    ]
+  },
+  {
+    "FirstName": "east",
+    "LastName": "Mary",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 25,
+    "raw_text": "Mary east, clerk Minn Loan & Trust Co, boards 114 west 15th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: clerk Minn Loan & Trust Co, boards 114 west 15th."
+    ]
+  },
+  {
+    "FirstName": "J",
+    "LastName": "Mary",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 26,
+    "raw_text": "Mary J (widow Franklin), residence 8 east 14th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: (widow Franklin), residence 8 east 14th."
+    ]
+  },
+  {
+    "FirstName": "J",
+    "LastName": "Mary",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 27,
+    "raw_text": "Mary J (widow Ruel P), boards 2104 Fremont avenue south.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: (widow Ruel P), boards 2104 Fremont avenue south."
+    ]
+  },
+  {
+    "FirstName": "L",
+    "LastName": "Mary",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 28,
+    "raw_text": "Mary L (widow Wm), boards 934 15th avenue southeast.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: (widow Wm), boards 934 15th avenue southeast."
+    ]
+  },
+  {
+    "FirstName": "G",
+    "LastName": "Myra",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 29,
+    "raw_text": "Myra G, boards 307 Oak Grove.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: boards 307 Oak Grove."
+    ]
+  },
+  {
+    "FirstName": "M",
+    "LastName": "Nereus",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 30,
+    "raw_text": "Nereus M, physician, residence 3124 Minnehaha avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: physician, residence 3124 Minnehaha avenue."
+    ]
+  },
+  {
+    "FirstName": "west",
+    "LastName": "Noah",
+    "Spouse": "",
+    "Occupation": "laborer",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 31,
+    "raw_text": "Noah west, laborer Bardwell-Robinson Co, residence 2217 Elliot avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: laborer Bardwell-Robinson Co, residence 2217 Elliot avenue."
+    ]
+  },
+  {
+    "FirstName": "M",
+    "LastName": "Nora",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 32,
+    "raw_text": "Nora M (widow Joseph), dressmkr flat 8 728 Nicollet avenue, residence same.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: (widow Joseph), dressmkr flat 8 728 Nicollet avenue, residence same."
+    ]
+  },
+  {
+    "FirstName": "boards",
+    "LastName": "Paul",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 33,
+    "raw_text": "Paul boards, student U of M, residence St Paul.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: student U of M, residence St Paul."
+    ]
+  },
+  {
+    "FirstName": "north",
+    "LastName": "Paul",
+    "Spouse": "",
+    "Occupation": "machinist",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 34,
+    "raw_text": "Paul north, machinist operator Washburn-Crosby",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: machinist operator Washburn-Crosby"
+    ]
+  },
+  {
+    "FirstName": "Co",
+    "LastName": "Milling",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 35,
+    "raw_text": "Milling Co, residence 2930 Cedar avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: residence 2930 Cedar avenue."
+    ]
+  },
+  {
+    "FirstName": "Peter",
+    "LastName": "Milling",
+    "Spouse": "",
+    "Occupation": "laborer",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 36,
+    "raw_text": "Peter, laborer, residence 1611 n_e 5th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: laborer, residence 1611 n_e 5th."
+    ]
+  },
+  {
+    "FirstName": "residence",
+    "LastName": "Robert",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 37,
+    "raw_text": "Robert residence, clerk Soo Shops, boards 2517. Central avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: clerk Soo Shops, boards 2517. Central avenue."
+    ]
+  },
+  {
+    "FirstName": "west",
+    "LastName": "Robert",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 38,
+    "raw_text": "Robert west, teamster, residence 1607 north 4th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: teamster, residence 1607 north 4th."
+    ]
+  },
+  {
+    "FirstName": "Robertson",
+    "LastName": "Robert",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 39,
+    "raw_text": "Robertson, student U of M, boards 1318 Mt Curve avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: student U of M, boards 1318 Mt Curve avenue."
+    ]
+  },
+  {
+    "FirstName": "J",
+    "LastName": "Roy",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 40,
+    "raw_text": "Roy J, assistant auditor F H. Peavey & Co boards 8 east 14th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: assistant auditor F H. Peavey & Co boards 8 east 14th."
+    ]
+  },
+  {
+    "FirstName": "Rudolph",
+    "LastName": "Roy",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 41,
+    "raw_text": "Rudolph, residence 680 north east Broadway.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: residence 680 north east Broadway."
+    ]
+  },
+  {
+    "FirstName": "Rufus",
+    "LastName": "Roy",
+    "Spouse": "",
+    "Occupation": "engineer",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 42,
+    "raw_text": "Rufus, engineer, residence 114 west 15th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: engineer, residence 114 west 15th."
+    ]
+  },
+  {
+    "FirstName": "D",
+    "LastName": "Samantha",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "2526 18th avenue south.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 43,
+    "raw_text": "Samantha D (widow Chester K), boards 2526 18th avenue south.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: (widow Chester K), boards 2526 18th avenue south."
+    ]
+  }
+]

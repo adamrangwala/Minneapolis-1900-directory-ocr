@@ -1,0 +1,33 @@
+# Core dependencies for Minneapolis 1900 City Directory OCR Pipeline
+# Requires Python 3.8 or higher
+# Image processing and computer vision
+opencv-python>=4.5.0
+Pillow>=8.0.0
+numpy>=1.20.0
+scipy>=1.7.0
+matplotlib>=3.3.0
+
+# OCR engine
+pytesseract>=0.3.8
+
+# Web scraping
+requests>=2.25.0
+selenium>=4.0.0
+beautifulsoup4>=4.9.0
+
+# Data processing and utilities
+pandas>=1.3.0
+pathlib2>=2.3.0
+
+# Testing framework
+pytest>=6.0.0
+pytest-cov>=2.12.0
+
+# Progress tracking and logging
+tqdm>=4.60.0
+
+# JSON handling (built-in json module is sufficient, but jsonschema for validation)
+jsonschema>=3.2.0
+
+# Optional: For advanced image preprocessing
+scikit-image>=0.18.0

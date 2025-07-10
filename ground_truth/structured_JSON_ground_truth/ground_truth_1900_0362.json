@@ -1,0 +1,223 @@
+[
+  {
+    "FirstName": "Ira M",
+    "LastName": "Cook",
+    "Spouse": "",
+    "Occupation": "bookkeeper",
+    "CompanyName": "G C Christian",
+    "HomeAddress": {
+      "StreetNumber": "802",
+      "StreetName": "2d av s",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "Jacob H",
+    "LastName": "Cook",
+    "Spouse": "",
+    "Occupation": "lawyer",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "1318",
+      "StreetName": "Mt Curve av",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "r"
+    },
+    "WorkAddress": "507 Kasota bldg",
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "James",
+    "LastName": "Cook",
+    "Spouse": "",
+    "Occupation": "clerk",
+    "CompanyName": "P J Kinnane",
+    "HomeAddress": {
+      "StreetNumber": "1607",
+      "StreetName": "n 4th",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "b"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "James W",
+    "LastName": "Cook",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "Soldiers' Home",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "b"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "Nora M",
+    "LastName": "Cook",
+    "Spouse": "Joseph Cook",
+    "Occupation": "dressmaker",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "728",
+      "StreetName": "Nicollet av",
+      "ApartmentOrUnit": "flat 8",
+      "ResidenceIndicator": "r"
+    },
+    "WorkAddress": "flat 8 728 Nicollet av",
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "Paul B",
+    "LastName": "Cook",
+    "Spouse": "",
+    "Occupation": "student",
+    "CompanyName": "University of Minnesota",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "St Paul",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "r"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "Sarah M",
+    "LastName": "Cook",
+    "Spouse": "",
+    "Occupation": "clerk",
+    "CompanyName": "John W Thomas & Co",
+    "HomeAddress": {
+      "StreetNumber": "2119",
+      "StreetName": "Russell av n",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "b"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "Severin",
+    "LastName": "Cook",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "758",
+      "StreetName": "n e Adams",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "r"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "Seymore S",
+    "LastName": "Cook",
+    "Spouse": "",
+    "Occupation": "collector",
+    "CompanyName": "National Bank of Commerce",
+    "HomeAddress": {
+      "StreetNumber": "1932",
+      "StreetName": "Penn av s",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "r"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "S George",
+    "LastName": "Cook",
+    "Spouse": "",
+    "Occupation": "vice-president and treasurer",
+    "CompanyName": "Metropolitan Trust Co and Lake Superior Lbr Co",
+    "HomeAddress": {
+      "StreetNumber": "307",
+      "StreetName": "Oak Grove",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "r"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "Charles E",
+    "LastName": "Cooke",
+    "Spouse": "",
+    "Occupation": "clerk",
+    "CompanyName": "George Cooke",
+    "HomeAddress": {
+      "StreetNumber": "3124",
+      "StreetName": "Hennepin av",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "b"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "Elbridge C",
+    "LastName": "Cooke",
+    "Spouse": "",
+    "Occupation": "vice-president and secretary",
+    "CompanyName": "Flannery & Cooke, Minneapolis Trust Co",
+    "HomeAddress": {
+      "StreetNumber": "1902",
+      "StreetName": "Park av",
+      "ApartmentOrUnit": "flat 4",
+      "ResidenceIndicator": "r"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  },
+  {
+    "FirstName": "May A",
+    "LastName": "Cooke",
+    "Spouse": "",
+    "Occupation": "stenographer",
+    "CompanyName": "Carnegie Steel Co (ltd)",
+    "HomeAddress": {
+      "StreetNumber": "527",
+      "StreetName": "s 10th",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "b"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": 362
+  }
+]
