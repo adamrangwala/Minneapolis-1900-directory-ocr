@@ -108,6 +108,21 @@ def check_batch_progress(job_name: str) -> None:
         print(f"No progress found for job: {job_name}")
 
 
+def create_combined_output():
+    """Create combined JSON output file from all individual page JSONs."""
+    from src.parsing.json_parser import combine_json_outputs
+    
+    logger.info("Creating combined output file")
+    
+    # Use the existing combine function but with custom filename
+    combine_json_outputs(
+        output_dir="data/output_json",
+        final_output_file="focused_sample_output.json"
+    )
+    
+    print("Created combined output file: data/output_json/focused_sample_output.json")
+
+
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(description='Batch OCR Pipeline Runner')
@@ -145,7 +160,7 @@ def main():
         results = run_target_pages_batch()
         
         # Print summary
-        successful = sum(1 for r in results.values() 
+        successful = sum(1 for r in results.values()
                         if isinstance(r, dict) and r.get('json_parsed', False))
         print(f"Target pages batch complete: {successful}/{len(results)} successful")
         
@@ -154,6 +169,10 @@ def main():
             if isinstance(result, dict):
                 status = "✓" if result.get('json_parsed', False) else "✗"
                 print(f"  Page {page_num}: {status}")
+        
+        # Create combined output file
+        if successful > 0:
+            create_combined_output()
     
     elif args.pages:
         results = run_custom_batch(args.pages)

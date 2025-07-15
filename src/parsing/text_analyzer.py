@@ -54,6 +54,10 @@ class TextAnalyzer:
         
         if words:
             potential_first_name = words[0].rstrip(',')
+            # Remove leading apostrophe from names like 'Smith
+            if potential_first_name.startswith("'"):
+                potential_first_name = potential_first_name[1:]
+            
             if not self.looks_like_occupation(potential_first_name):
                 return potential_first_name
         
@@ -62,10 +66,26 @@ class TextAnalyzer:
     def identify_widow_notation(self, text: str) -> str:
         """Identify widow notation in text."""
         import re
-        if 'wid ' in text.lower():
-            match = re.search(r'wid ([^,)]+)', text, re.IGNORECASE)
+        
+        # Look for various widow patterns
+        widow_patterns = [
+            # Pattern: (widow Name)
+            r'\(widow\s+([^)]+)\)',
+            # Pattern: wid Name
+            r'\bwid\s+([^,)]+)',
+            # Pattern: widow Name
+            r'\bwidow\s+([^,)]+)'
+        ]
+        
+        for pattern in widow_patterns:
+            match = re.search(pattern, text, re.IGNORECASE)
             if match:
-                return match.group(1).strip()
+                spouse_name = match.group(1).strip()
+                # Add (deceased) if not already present
+                if 'deceased' not in spouse_name.lower():
+                    spouse_name += ' (deceased)'
+                return spouse_name
+        
         return ""
     
     def extract_residence_indicators(self, text: str) -> tuple:
@@ -104,11 +124,72 @@ class TextAnalyzer:
         text = text.lstrip(', ')
         words = text.split()
         
-        if words:
-            potential_first_name = words[0].rstrip(',')
-            
-            if not self.looks_like_occupation(potential_first_name):
-                remaining_text = ' '.join(words[1:])
-                return potential_first_name, remaining_text
+        if not words:
+            return "", text
         
-        return "", text
+        # Extract first name including middle names/initials
+        first_name_parts = []
+        remaining_words = []
+        
+        # Common occupation keywords to stop at
+        occupation_keywords = [
+            'porter', 'clerk', 'laborer', 'teamster', 'machinist', 'engineer',
+            'salesman', 'bookkeeper', 'carpenter', 'conductor', 'waiter',
+            'student', 'seamstress', 'nurse', 'cook', 'millwright', 'cutter',
+            'clk', 'lab', 'tmstr', 'mach', 'eng', 'slsmn', 'bkpr', 'carp', 'cond',
+            'photographer', 'domestic', 'superintendent', 'physician', 'driver',
+            'letter', 'carrier', 'hostler', 'lawyer', 'traveling', 'agent',
+            'manager', 'mnegr', 'mnfrs', 'peddler', 'apprentice', 'grocer',
+            'confectioner', 'wireman', 'foreman', 'jeweler', 'seamstress',
+            'house', 'mover', 'stenographer', 'salesman', 'operator', 'bartender',
+            'car', 'repairer', 'with', 'died', 'moved', 'widow'
+        ]
+        
+        # Address/location indicators that signal end of name
+        location_indicators = [
+            'residence', 'boards', 'rms', 'telephone', 'same', 'building',
+            'bldg', 'avenue', 'street', 'av', 'st', 'north', 'south', 'east', 'west'
+        ]
+        
+        for i, word in enumerate(words):
+            word_clean = word.rstrip(',').lower()
+            
+            # Stop if we hit an occupation keyword
+            if word_clean in occupation_keywords:
+                remaining_words = words[i:]
+                break
+            
+            # Stop if we hit a location indicator
+            if word_clean in location_indicators:
+                remaining_words = words[i:]
+                break
+            
+            # Stop if we hit a parenthesis (like widow notation)
+            if '(' in word:
+                remaining_words = words[i:]
+                break
+                
+            # Add to first name if it looks like a name part
+            # Names typically are capitalized and don't contain numbers
+            # Include single letters (initials) and names with apostrophes
+            word_clean = word.rstrip(',')
+            word_for_check = word_clean.lstrip("'")  # Remove leading apostrophe for checking
+            
+            if (word_for_check.isalpha() and
+                (word_for_check[0].isupper() if word_for_check else False) and
+                len(word_for_check) >= 1):  # Allow single letter initials
+                # Clean the apostrophe from the beginning if it's there
+                clean_name = word_clean.lstrip("'") if word_clean.startswith("'") else word_clean
+                first_name_parts.append(clean_name)
+            else:
+                remaining_words = words[i:]
+                break
+        
+        # If no remaining words were found, everything after first name part is remaining
+        if not remaining_words and len(words) > len(first_name_parts):
+            remaining_words = words[len(first_name_parts):]
+        
+        first_name = ' '.join(first_name_parts) if first_name_parts else ""
+        remaining_text = ' '.join(remaining_words) if remaining_words else ""
+        
+        return first_name, remaining_text

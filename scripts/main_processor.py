@@ -93,7 +93,7 @@ def process_single_page(page_number: int, download: bool = True) -> dict:
             
             if entries:
                 output_json = f"data/output_json/page_{page_number}.json"
-                parser.save_to_json(output_json)
+                parser.save_to_json(output_json, page_number=page_number)
                 results['json_parsed'] = True
                 results['output_files']['json'] = output_json
                 logger.info(f"JSON parsing completed: {len(entries)} entries")

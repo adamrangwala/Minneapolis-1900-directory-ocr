@@ -1,0 +1,72 @@
+{
+  "job_name": "target_pages_processing",
+  "saved_at": 1752565961.552581,
+  "data": {
+    "processed_items": {
+      "114": {
+        "page_number": 114,
+        "downloaded": true,
+        "extracted_columns": true,
+        "ocr_completed": true,
+        "json_parsed": true,
+        "output_files": {
+          "raw_image": "data\\raw_images\\1900_0114.jpg",
+          "ocr_text": "data\\ocr_text\\1900_0112_left_col.txt",
+          "json": "data/output_json/page_114.json"
+        }
+      },
+      "112": {
+        "page_number": 112,
+        "downloaded": true,
+        "extracted_columns": true,
+        "ocr_completed": true,
+        "json_parsed": true,
+        "output_files": {
+          "raw_image": "data\\raw_images\\1900_0112.jpg",
+          "ocr_text": "data\\ocr_text\\1900_0112_left_col.txt",
+          "json": "data/output_json/page_112.json"
+        }
+      },
+      "115": {
+        "page_number": 115,
+        "downloaded": true,
+        "extracted_columns": true,
+        "ocr_completed": true,
+        "json_parsed": true,
+        "output_files": {
+          "raw_image": "data\\raw_images\\1900_0115.jpg",
+          "ocr_text": "data\\ocr_text\\1900_0112_left_col.txt",
+          "json": "data/output_json/page_115.json"
+        }
+      },
+      "113": {
+        "page_number": 113,
+        "downloaded": true,
+        "extracted_columns": true,
+        "ocr_completed": true,
+        "json_parsed": true,
+        "output_files": {
+          "raw_image": "data\\raw_images\\1900_0113.jpg",
+          "ocr_text": "data\\ocr_text\\1900_0112_left_col.txt",
+          "json": "data/output_json/page_113.json"
+        }
+      },
+      "116": {
+        "page_number": 116,
+        "downloaded": true,
+        "extracted_columns": true,
+        "ocr_completed": true,
+        "json_parsed": true,
+        "output_files": {
+          "raw_image": "data\\raw_images\\1900_0116.jpg",
+          "ocr_text": "data\\ocr_text\\1900_0112_left_col.txt",
+          "json": "data/output_json/page_116.json"
+        }
+      }
+    },
+    "last_index": 5,
+    "total_items": 5,
+    "timestamp": 1752565961.5525632,
+    "completed": true
+  }
+}
