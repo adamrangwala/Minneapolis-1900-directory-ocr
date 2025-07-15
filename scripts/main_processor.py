@@ -76,8 +76,9 @@ def process_single_page(page_number: int, download: bool = True) -> dict:
         # Step 3: OCR processing
         text_extractor = TextExtractor()
         ocr_results = text_extractor.process_column_images(
-            "data/processed_images", 
-            "data/ocr_text"
+            "data/processed_images",
+            "data/ocr_text",
+            raw_output_dir="data/raw_ocr"
         )
         
         if ocr_results:

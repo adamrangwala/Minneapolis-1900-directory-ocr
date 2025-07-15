@@ -1,0 +1,520 @@
+[
+  {
+    "FirstName": "Furnished",
+    "LastName": "Messengers",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 1,
+    "raw_text": "Messengers Furnished Promptly.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: Promptly."
+    ]
+  },
+  {
+    "FirstName": "Delivered",
+    "LastName": "Trunks",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 2,
+    "raw_text": "Trunks Delivered for 25 Cents.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: for 25 Cents."
+    ]
+  },
+  {
+    "FirstName": "Nicollet",
+    "LastName": "AQ!",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 3,
+    "raw_text": "AQ! Nicollet Ave. telephone. 220.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: Ave. telephone. 220."
+    ]
+  },
+  {
+    "FirstName": "Christian",
+    "LastName": "Aabel",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 4,
+    "raw_text": "Aabel Christian C, porter Geo residence Newell & Co, residence 1329 Irving avenue north.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: C, porter Geo residence Newell & Co, residence 1329 Irving avenue north."
+    ]
+  },
+  {
+    "FirstName": "Arne",
+    "LastName": "Aaberg",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 5,
+    "raw_text": "Aaberg Arne, boards 2507 Riverside avenue.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: boards 2507 Riverside avenue."
+    ]
+  },
+  {
+    "FirstName": "'Arne",
+    "LastName": "Aaberg",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 6,
+    "raw_text": "'Arne O, student U of M, boards 1600 south east 4th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: O, student U of M, boards 1600 south east 4th."
+    ]
+  },
+  {
+    "FirstName": "'Melkior",
+    "LastName": "Aaberg",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 7,
+    "raw_text": "'Melkior K, student U C Sem, rms 201 Butler place.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: K, student U C Sem, rms 201 Butler place."
+    ]
+  },
+  {
+    "FirstName": "Aslak",
+    "LastName": "Aaby",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 8,
+    "raw_text": "Aaby Aslak A, millwright, residence 1810 south 5th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: A, millwright, residence 1810 south 5th."
+    ]
+  },
+  {
+    "FirstName": "'Caroline",
+    "LastName": "Aaby",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 9,
+    "raw_text": "'Caroline, seamstress, boards 110 University avenue north east.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: seamstress, boards 110 University avenue north east."
+    ]
+  },
+  {
+    "FirstName": "'Henry",
+    "LastName": "Aaby",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 10,
+    "raw_text": "'Henry C, conductor T C residence T Co, boards 110 Uni versity avenue ne. ee",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: C, conductor T C residence T Co, boards 110 Uni versity avenue ne. ee"
+    ]
+  },
+  {
+    "FirstName": "'Louis",
+    "LastName": "Aaby",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 11,
+    "raw_text": "'Louis C, conductor T C residence T Co, boards N10 Uni versity avenue north east.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: C, conductor T C residence T Co, boards N10 Uni versity avenue north east."
+    ]
+  },
+  {
+    "FirstName": "see",
+    "LastName": "Aagaard",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 12,
+    "raw_text": "Aagaard, see also Aargaard.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: also Aargaard."
+    ]
+  },
+  {
+    "FirstName": "'Elsie",
+    "LastName": "Aagaard",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 13,
+    "raw_text": "'Elsie K (widow Rasmus north), residence 1531 east 18th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: K (widow Rasmus north), residence 1531 east 18th."
+    ]
+  },
+  {
+    "FirstName": "'George",
+    "LastName": "Aagaard",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 14,
+    "raw_text": "'George north, cutter Yerxa Bros & Co, bi 1531 east 18th. c",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: north, cutter Yerxa Bros & Co, bi 1531 east 18th. c"
+    ]
+  },
+  {
+    "FirstName": "'Paul",
+    "LastName": "Aagaard",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 15,
+    "raw_text": "'Paul north. bookkeeper Foster & Waldo, residence 1522 east",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: north. bookkeeper Foster & Waldo, residence 1522 east"
+    ]
+  },
+  {
+    "FirstName": "Hannah",
+    "LastName": "Aage",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 16,
+    "raw_text": "Aage Hannah M, nurse 604 20th avenue south, boards same.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: M, nurse 604 20th avenue south, boards same."
+    ]
+  },
+  {
+    "FirstName": "Bert",
+    "LastName": "Aahjem",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 17,
+    "raw_text": "Aahjem Bert O, waiter 103 Washington.avenue south, residence 307 ¢south 5th.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: O, waiter 103 Washington.avenue south, residence 307 ¢south 5th."
+    ]
+  },
+  {
+    "FirstName": "see",
+    "LastName": "Aaker",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 18,
+    "raw_text": "Aaker, see also Acker and Aker.",
+    "year": "1900",
+    "parsing_notes": [
+      "Remaining text: also Acker and Aker."
+    ]
+  },
+  {
+    "FirstName": "'Andrew",
+    "LastName": "Aaker",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 19,
+    "raw_text": "'Andrew L, creamery 1628 south 6th, residence. 1528 east",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: L, creamery 1628 south 6th, residence. 1528 east"
+    ]
+  },
+  {
+    "FirstName": "'Charles",
+    "LastName": "Aaker",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 20,
+    "raw_text": "'Charles, cook 601 Washington avenue south,-rms 800 3 AAKER CHRISTOPHER L, MILK AND Butter Store, Full Line of Bakery and Canned Goods 1318 south 4th, residence same, telephone Main 2855-L1.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: cook 601 Washington avenue south,-rms 800 3 AAKER CHRISTOPHER L, MILK AND Butter Store, Full Line of Bakery and Canned Goods 1318 south 4th, residence same, telephone Main 2855-L1."
+    ]
+  },
+  {
+    "FirstName": "'Tver",
+    "LastName": "Aaker",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 21,
+    "raw_text": "'Tver L (I L Aaker & Co), residence 1815 I17th avenue south.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: L (I L Aaker & Co), residence 1815 I17th avenue south."
+    ]
+  },
+  {
+    "FirstName": "'T",
+    "LastName": "Aaker",
+    "Spouse": "",
+    "Occupation": "",
+    "CompanyName": "",
+    "HomeAddress": {
+      "StreetNumber": "",
+      "StreetName": "1500 franklin. avenue east.",
+      "ApartmentOrUnit": "",
+      "ResidenceIndicator": "rooms"
+    },
+    "WorkAddress": null,
+    "Telephone": null,
+    "DirectoryName": "Minneapolis 1900",
+    "PageNumber": null,
+    "line_number": 22,
+    "raw_text": "'T L & Co (Iver L Aaker, Emil Larson), creamery 1500 Franklin. avenue east.",
+    "year": "1900",
+    "parsing_notes": [
+      "Inherited surname from previous entry",
+      "Remaining text: L & Co (Iver L Aaker, Emil Larson), creamery 1500 Franklin. avenue east."
+    ]
+  }
+]

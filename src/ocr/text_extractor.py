@@ -49,7 +49,8 @@ class TextExtractor:
             'postprocessing': {'enable_text_cleaning': True}
         }
     
-    def extract_text(self, image_path: Union[str, Path], preprocess: bool = True) -> str:
+    def extract_text(self, image_path: Union[str, Path], preprocess: bool = True,
+                     save_raw: bool = False, raw_output_dir: Optional[Union[str, Path]] = None) -> str:
         """Extract text from image using OCR."""
         try:
             if preprocess:
@@ -64,6 +65,10 @@ class TextExtractor:
             # Extract raw text
             raw_text = self.ocr_engine.extract_text(pil_img)
             
+            # Save raw OCR text if requested
+            if save_raw and raw_output_dir:
+                self._save_raw_ocr_text(image_path, raw_text, raw_output_dir)
+            
             # Clean text
             cleaned_text = self.text_cleaner.clean_text(raw_text)
             
@@ -74,8 +79,9 @@ class TextExtractor:
             logger.error(f"Failed to extract text from {image_path}: {e}")
             return ""
     
-    def extract_with_confidence(self, image_path: Union[str, Path], 
-                               preprocess: bool = True) -> tuple:
+    def extract_with_confidence(self, image_path: Union[str, Path],
+                               preprocess: bool = True, save_raw: bool = False,
+                               raw_output_dir: Optional[Union[str, Path]] = None) -> tuple:
         """Extract text with confidence score."""
         try:
             if preprocess:
@@ -90,6 +96,10 @@ class TextExtractor:
             # Get text and confidence from OCR engine
             raw_text, confidence = self.ocr_engine.extract_with_confidence(pil_img)
             
+            # Save raw OCR text if requested
+            if save_raw and raw_output_dir:
+                self._save_raw_ocr_text(image_path, raw_text, raw_output_dir)
+            
             # Clean text
             cleaned_text = self.text_cleaner.clean_text(raw_text)
             
@@ -100,12 +110,18 @@ class TextExtractor:
             return "", 0.0
 
 
-    def process_column_images(self, input_dir: Union[str, Path], 
-                             output_dir: Union[str, Path]) -> Dict[str, str]:
+    def process_column_images(self, input_dir: Union[str, Path],
+                             output_dir: Union[str, Path],
+                             raw_output_dir: Optional[Union[str, Path]] = None) -> Dict[str, str]:
         """Process all column images in a directory and save OCR text."""
         input_path = Path(input_dir)
         output_path = Path(output_dir)
         output_path.mkdir(parents=True, exist_ok=True)
+        
+        # Create raw output directory if specified
+        if raw_output_dir:
+            raw_path = Path(raw_output_dir)
+            raw_path.mkdir(parents=True, exist_ok=True)
         
         results = {}
         
@@ -118,14 +134,19 @@ class TextExtractor:
         
         for image_file in column_images:
             try:
-                # Extract text from column image
-                text = self.extract_text(image_file, preprocess=True)
+                # Extract text from column image (with raw OCR saving if specified)
+                text = self.extract_text(
+                    image_file,
+                    preprocess=True,
+                    save_raw=bool(raw_output_dir),
+                    raw_output_dir=raw_output_dir
+                )
                 
                 # Create output filename (replace .jpg with .txt)
                 output_filename = image_file.stem + ".txt"
                 output_file = output_path / output_filename
                 
-                # Save text to file
+                # Save cleaned text to file
                 with open(output_file, 'w', encoding='utf-8') as f:
                     f.write(text)
                 
@@ -136,6 +157,27 @@ class TextExtractor:
                 logger.error(f"Failed to process {image_file}: {e}")
         
         return results
+    
+    def _save_raw_ocr_text(self, image_path: Union[str, Path], raw_text: str,
+                          raw_output_dir: Union[str, Path]) -> None:
+        """Save raw OCR text to file before cleaning."""
+        try:
+            image_path = Path(image_path)
+            raw_output_path = Path(raw_output_dir)
+            raw_output_path.mkdir(parents=True, exist_ok=True)
+            
+            # Create raw output filename (replace .jpg with .txt)
+            raw_filename = image_path.stem + ".txt"
+            raw_file = raw_output_path / raw_filename
+            
+            # Save raw text to file
+            with open(raw_file, 'w', encoding='utf-8') as f:
+                f.write(raw_text)
+            
+            logger.info(f"Saved raw OCR text: {raw_filename}")
+            
+        except Exception as e:
+            logger.error(f"Failed to save raw OCR text for {image_path}: {e}")
 
 
 def extract_text_from_image(image_path: Union[str, Path], 

@@ -44,7 +44,8 @@ class TextCleaner:
             # Remove noise characters if enabled
             if self.config.get('remove_noise_characters', True):
                 cleaned_line = self._remove_noise_characters(cleaned_line)
-            
+                cleaned_line = self._clean_front_of_line(cleaned_line)
+                cleaned_line = self._clean_end_of_line(cleaned_line)
             if cleaned_line.strip():
                 cleaned_lines.append(cleaned_line.strip())
         
@@ -60,27 +61,58 @@ class TextCleaner:
     
     def _remove_noise_characters(self, line: str) -> str:
         """Remove noise characters from line while preserving valid content."""
-        noise_chars = self.config.get(
-            'noise_characters', 
-            "~`!@#$%^&*()_+=[]{}|\\:;\"'<>?,./"
+        if not line:
+            return line
+            
+        # Update this list of characters as needed in debugging
+        noise_characters = self.config.get(
+            'noise_characters',
+            "~_"
         )
+        for char in line:
+            if char in noise_characters:
+                line = line.replace(char, '')
         
+        return line  # FIX: Added missing return statement
+
+    def _clean_front_of_line(self, line: str) -> str:
+        if not line:
+            return line
+            
         allowed_leading = set(self.config.get(
             'allowed_leading_chars',
             'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789&'
         ))
+
+        quote_artifacts = {''', ''', '‘', '’', '“', '”', '*', "'", '"', '"', '"', '´', '`','°', '‛', '❛', '❜', '❝', '❞'}
         
-        # Clean from the beginning
+        has_leading_quote = False
+        # Clean from the beginning - FIX: Added bounds checking
+        if len(line) > 0 and line[0] in quote_artifacts:
+            has_leading_quote = True
+        elif len(line) > 1 and line[1] in quote_artifacts:
+            has_leading_quote = True
+            
         while line and line[0] not in allowed_leading:
             line = line[1:]
+        if has_leading_quote == True and line and line[0] in allowed_leading:
+            line = "'" + line
         
+        return line
+    
+    def _clean_end_of_line(self, line: str) -> str:
+    
+        allowed_ending = set(self.config.get(
+            'allowed_ending_chars',
+            'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789&)'
+        ))
         # Clean from the end, but preserve periods that follow letters/numbers
         while line:
             last_char = line[-1]
             
             if last_char.isalnum() or last_char in '&':
                 break
-            elif last_char == '.' and len(line) > 1 and line[-2] in allowed_leading:
+            elif last_char in ('.',',') and len(line) > 1 and line[-2] in allowed_ending:
                 break
             else:
                 line = line[:-1]
@@ -97,13 +129,39 @@ class TextCleaner:
             'continuation_indicators',
             ['starts_with_digit', 'starts_with_lowercase', 'very_short_line', 'common_continuation_words']
         )
-        
-        for line in lines:
-            if combined_lines and self._is_continuation_line(line, continuation_indicators):
+
+        for line in lines:       
+            first_char = line.strip()[0]
+            previous_line_first_char = combined_lines[-1].strip()[0] if combined_lines else ''
+            previous_line_last_word = combined_lines[-1].strip().split()[-1] if combined_lines else ''
+            continuation_ends = ['and', 'the', 'of', 'in', 'for', 'to', 'on', 'at', 'with', 'by', 'as', 'is', 'are', ',']
+            print("Previous line last word:", previous_line_last_word)
+
+            # if line starts with a quote, not a continuation
+            if ord(first_char) in (8216, 8217, 8220, 8221, 39, 34) and combined_lines:
+                combined_lines.append(line)
+                logger.info(f"Line starts with quote, not continuation: '{line}'")
+            # Handle hyphenated words split across lines
+            elif combined_lines and combined_lines[-1].endswith('-'):
+                combined_lines[-1] = combined_lines[-1][:-1] + line.strip()
+                logger.info(f"Merging hyphenated line: '{combined_lines[-1]}'")
+            # If line is a continuation of previous line, add to previous line
+            elif combined_lines and self._is_continuation_line(line, continuation_indicators):
                 combined_lines[-1] = combined_lines[-1] + ' ' + line.strip()
+                logger.info(f"Merging continuation line: '{combined_lines[-1]}'")
+            # If previous line ends with 'and' or 'the' or similar, treat as continuation
+            elif previous_line_last_word.lower() in continuation_ends and combined_lines:
+                combined_lines[-1] = combined_lines[-1] + ' ' + line.strip()
+                logger.info(f"Merging line with previous 'and'/'the': '{combined_lines[-1]}'") # If previous line ends with 'and' or 'the' or similar, treat as continuation
+            # If previous line ends with a number, treat as continuation (e.g. addresses)
+            elif combined_lines and previous_line_last_word.isdigit():
+                combined_lines[-1] = combined_lines[-1] + ' ' + line.strip()
+                logger.info(f"Merging line after number: '{combined_lines[-1]}'")
+            # Not a continuation
             else:
                 combined_lines.append(line)
-        
+                logger.info(f"New line added: '{line}'")
+                
         return combined_lines
     
     def _is_continuation_line(self, line: str, indicators: List[str]) -> bool:
@@ -114,6 +172,7 @@ class TextCleaner:
         first_char = line.strip()[0]
         first_word = line.strip().split()[0] if line.strip() else ''
         
+        # Simple indicators for continuation lines
         for indicator in indicators:
             if indicator == 'starts_with_digit' and first_char.isdigit():
                 return True
@@ -127,9 +186,10 @@ class TextCleaner:
                     ['Co', 'same', 'Co,', 'Inc', 'Ltd', 'Corp']
                 )
                 if first_word in common_words:
-                    return True
-        
+                    return True 
+
         return False
+  
     
     def _expand_abbreviations(self, lines: List[str]) -> List[str]:
         """Expand common abbreviations in the text."""

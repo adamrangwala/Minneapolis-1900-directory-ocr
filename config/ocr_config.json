@@ -44,6 +44,7 @@
     "min_line_length": 3,
     "noise_characters": "~`!@#$%^&*()_+=[]{}|\\:;\"'<>?,./",
     "allowed_leading_chars": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789&",
+    "allowed_ending_chars": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789&)",
     "continuation_indicators": [
       "starts_with_digit",
       "starts_with_lowercase",

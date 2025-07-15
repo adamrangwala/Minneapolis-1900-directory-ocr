@@ -21,8 +21,9 @@ class BatchOCRProcessor:
         self.extractor = TextExtractor(config_path=config_path)
         logger.info("BatchOCRProcessor initialized")
     
-    def process_images(self, image_paths: List[Union[str, Path]], 
-                      output_dir: Union[str, Path]) -> Dict[str, str]:
+    def process_images(self, image_paths: List[Union[str, Path]],
+                      output_dir: Union[str, Path],
+                      raw_output_dir: Union[str, Path] = None) -> Dict[str, str]:
         """Process multiple images and save text files."""
         output_dir = Path(output_dir)
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -31,7 +32,11 @@ class BatchOCRProcessor:
         
         for img_path in image_paths:
             try:
-                text = self.extractor.extract_text(img_path)
+                text = self.extractor.extract_text(
+                    img_path,
+                    save_raw=bool(raw_output_dir),
+                    raw_output_dir=raw_output_dir
+                )
                 
                 input_path = Path(img_path)
                 output_path = output_dir / f"{input_path.stem}.txt"
@@ -48,8 +53,9 @@ class BatchOCRProcessor:
         
         return results
     
-    def process_column_images(self, input_dir: Union[str, Path], 
-                             output_dir: Union[str, Path]) -> Dict[str, str]:
+    def process_column_images(self, input_dir: Union[str, Path],
+                             output_dir: Union[str, Path],
+                             raw_output_dir: Union[str, Path] = None) -> Dict[str, str]:
         """Process column images and combine by page."""
         input_path = Path(input_dir)
         output_path = Path(output_dir)
@@ -68,7 +74,7 @@ class BatchOCRProcessor:
         for page_id, columns in sorted(pages.items()):
             logger.info(f"Processing page: {page_id}")
             
-            combined_text = self._combine_page_text(columns)
+            combined_text = self._combine_page_text(columns, raw_output_dir)
             
             if combined_text:
                 output_file = output_path / f"{page_id}.txt"
@@ -96,19 +102,27 @@ class BatchOCRProcessor:
         
         return pages
     
-    def _combine_page_text(self, columns: Dict[str, Path]) -> str:
+    def _combine_page_text(self, columns: Dict[str, Path], raw_output_dir: Union[str, Path] = None) -> str:
         """Extract and combine text from left and right columns."""
         combined_text = ""
         
         # Process left column
         if 'left' in columns:
-            left_text = self.extractor.extract_text(columns['left'])
+            left_text = self.extractor.extract_text(
+                columns['left'],
+                save_raw=bool(raw_output_dir),
+                raw_output_dir=raw_output_dir
+            )
             if left_text:
                 combined_text += left_text + "\n"
         
         # Process right column
         if 'right' in columns:
-            right_text = self.extractor.extract_text(columns['right'])
+            right_text = self.extractor.extract_text(
+                columns['right'],
+                save_raw=bool(raw_output_dir),
+                raw_output_dir=raw_output_dir
+            )
             if right_text:
                 combined_text += right_text
         
