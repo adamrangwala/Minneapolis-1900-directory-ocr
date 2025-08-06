@@ -3,36 +3,16 @@
 
 <div align="center">
 
-**Final Round Submission - HouseNovel Hiring Process**
-
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Accuracy](https://img.shields.io/badge/accuracy-95%25%2B-blue)
-![Coverage](https://img.shields.io/badge/coverage-pages%20112--116-green)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-
-*Focused sample demonstrating workflow quality and consistency*
-
 </div>
 
-## 🎯 **Final Round Submission Results**
 
-**For immediate evaluation of the final submission, please review the processed results:**
+ **Combined Results**: [`focused_sample_output.json`](data/output_json/focused_sample_output.json) - All pages 112-116 in single file
 
-📁 **Individual Page Results**: [`data/output_json/`](data/output_json/)
-- [`page_112.json`](data/output_json/page_112.json) - Page 112 structured data
-- [`page_113.json`](data/output_json/page_113.json) - Page 113 structured data
-- [`page_114.json`](data/output_json/page_114.json) - Page 114 structured data
-- [`page_115.json`](data/output_json/page_115.json) - Page 115 structured data
-- [`page_116.json`](data/output_json/page_116.json) - Page 116 structured data
-
-📄 **Combined Results**: [`focused_sample_output.json`](data/output_json/focused_sample_output.json) - All pages 112-116 in single file
-
-🎯 **Ground Truth Validation**: [`ground_truth/1900_0113.json`](ground_truth/1900_0113.json) - Reference data for accuracy comparison
+ **Ground Truth Validation**: [`ground_truth/1900_0113.json`](ground_truth/1900_0113.json) - Reference data for accuracy comparison
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Quick Start](#quick-start)
@@ -44,10 +24,9 @@
 - [Project Structure](#project-structure)
 - [Development](#development)
 - [Future Roadmap](#future-roadmap)
-- [Contributing](#contributing)
-- [Support](#support)
 
-## 🎯 Introduction
+
+##  Introduction
 
 This is the **Minneapolis 1900 City Directory OCR Pipeline** - a sophisticated, production-ready system designed to extract structured resident data from historical city directories with **95%+ accuracy**. Built as a final round submission for the HouseNovel hiring process, this project demonstrates not just the ability to solve the immediate 5-page challenge (pages 112-116), but showcases **enterprise-grade engineering practices** and **scalable architecture** thinking.
 
@@ -68,37 +47,37 @@ Rather than building a quick prototype, we've developed a **production-minded pi
 - **Developer experience** with transparent debugging and clear documentation
 - **Business readiness** with performance metrics and monitoring capabilities
 
-## ✨ Key Features
+##  Key Features
 
-### 🏗️ Production Architecture
+###  Production Architecture
 - **Built for scale, not just the 5-page sample** - Architecture designed to handle thousands of pages
 - **Checkpoint system** for resumable batch processing with automatic recovery
 - **Multi-stage pipeline** with transparent outputs at each processing stage
 - **Comprehensive logging** with structured error reporting and performance metrics
 - **Robust error handling** with retry logic and graceful degradation
 
-### 🔬 Technical Sophistication  
+###  Technical Sophistication  
 - **Advanced column detection** using computer vision and structural line analysis
 - **Domain-specific text cleaning** with historical abbreviation expansion
 - **Intelligent parsing** with surname continuation and widow notation handling
 - **Ground truth validation** system with accuracy metrics and threshold checking
 - **Modular design** enabling easy testing, debugging, and component replacement
 
-### 📊 Quality Assurance
+###  Quality Assurance
 - **95%+ accuracy target** with comprehensive validation against ground truth data
 - **Multi-level validation** from OCR quality to final JSON structure
 - **Performance benchmarking** with processing speed and accuracy metrics  
 - **Transparent debugging** with intermediate outputs saved at each pipeline stage
 - **Test-driven development** approach with comprehensive test coverage
 
-### 🚀 Developer Experience
+###  Developer Experience
 - **Clear pipeline visualization** with easy-to-understand processing stages
 - **Comprehensive documentation** with usage examples and API references
 - **Flexible configuration** system for easy parameter tuning
 - **Batch processing tools** with progress tracking and job management
 - **Validation utilities** for comparing outputs against ground truth
 
-## 🚀 Quick Start
+##  Quick Start
 
 <details>
 <summary>Prerequisites</summary>
@@ -146,8 +125,7 @@ cat data/output_json/focused_sample_output.json
   }
 ]
 ```
-
-## 📦 Installation
+##  Installation
 
 ### Local Development Setup
 
@@ -212,7 +190,7 @@ RUN pip install -r requirements.txt
 CMD ["python", "scripts/batch_runner.py", "--target-pages"]
 ```
 
-## 💻 Usage
+##  Usage
 
 ### Basic Usage Examples
 
@@ -277,7 +255,7 @@ python scripts/validation_checker.py \
 python scripts/batch_runner.py --progress target_pages_processing
 ```
 
-## 🔄 Pipeline Architecture
+##  Pipeline Architecture
 
 Our Minneapolis 1900 City Directory OCR pipeline transforms historical documents into structured data through five robust stages:
 
@@ -359,7 +337,7 @@ graph LR
 
 This transparent pipeline enables **easy debugging**, **quality assurance**, and **performance optimization** at every stage, making it production-ready for large-scale historical document processing.
 
-## 🔧 Technical Deep Dive
+##  Technical Deep Dive
 
 ### Historical Document Expertise
 Our system demonstrates deep understanding of 1900s city directory formats and OCR challenges:
@@ -387,7 +365,7 @@ Our system demonstrates deep understanding of 1900s city directory formats and O
 - **Performance Benchmarking**: Automated measurement of processing speed and accuracy
 - **Threshold Monitoring**: Configurable quality gates with pass/fail reporting
 
-## 🚀 Future Roadmap
+##  Future Roadmap
 
 ### Immediate Priorities 
 - **TDD Implementation**: Comprehensive test suite using green-red-refactor methodology
@@ -586,12 +564,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 - **Documentation improvements** with more examples and tutorials
 - **Test coverage expansion** with additional edge cases and scenarios
 
-## 🆘 Support & Contact
-
-- **Issues**: [GitHub Issues](https://github.com/[username]/Minneapolis-1900-directory-ocr/issues)
-- **Documentation**: [Project Wiki](https://github.com/[username]/Minneapolis-1900-directory-ocr/wiki)
-- **Email**: [your-email@domain.com]
-- **LinkedIn**: [Your LinkedIn Profile]
 
 ### Getting Help
 - **Check the documentation** and examples in this README first
@@ -609,8 +581,5 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 <div align="center">
 
-**Built with ❤️ for Historical Data Preservation**
-
-*This project demonstrates production-ready engineering practices and scalable thinking beyond the immediate 5-page requirement. It showcases the ability to build systems that teams can rely on, extend, and maintain in a production environment.*
 
 </div>
