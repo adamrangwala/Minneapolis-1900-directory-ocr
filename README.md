@@ -3,6 +3,9 @@
 
 <div align="center">
 
+<!-- Example OCR Result Image -->
+<img src="images/OCR_City_Directory_Thumbnail.jpg" alt="Example OCR result from Minneapolis 1900 City Directory" width="600"/>
+
 </div>
 
 
