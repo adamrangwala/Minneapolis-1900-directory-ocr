@@ -3,6 +3,24 @@
 
 <div align="center">
 
+<!-- Pipeline Diagram -->
+```mermaid
+graph LR
+    A[Web Archive] --> B[Image Download]
+    B --> C[Column Extraction]
+    C --> D[OCR Processing]
+    D --> E[Text Cleaning]
+    E --> F[JSON Parsing]
+    F --> G[Validation]
+    
+    B --> H[Raw Images]
+    C --> I[Processed Images]
+    D --> J[OCR Text]
+    E --> K[Cleaned Text]
+    F --> L[JSON Output]
+    G --> M[Validated Data]
+```
+
 <!-- Example OCR Result Image -->
 <img src="images/OCR_City_Directory_Thumbnail.jpg" alt="Example OCR result from Minneapolis 1900 City Directory" width="600"/>
 
@@ -30,6 +48,16 @@
 
 
 ##  Introduction
+
+### How the Pipeline Works (High-Level Flow)
+- Web Archive → Image Download: Pages are downloaded with retry and integrity checks.
+- Column Extraction: Each page is analyzed and split into left/right text columns, isolating ads and decorations.
+- OCR Processing: Tesseract extracts raw text from each column with optimized historical-document settings.
+- Text Cleaning: Noise and line artifacts are removed; split lines are merged; historic abbreviations are expanded.
+- JSON Parsing: Cleaned text is parsed into structured records (name, occupation, company, address, page).
+- Validation: Parsed JSON is compared with ground truth to compute accuracy metrics and generate reports.
+
+</div>
 
 This is the **Minneapolis 1900 City Directory OCR Pipeline** - a sophisticated, production-ready system designed to extract structured resident data from historical city directories with **95%+ accuracy**. Built as a final round submission for the HouseNovel hiring process, this project demonstrates not just the ability to solve the immediate 5-page challenge (pages 112-116), but showcases **enterprise-grade engineering practices** and **scalable architecture** thinking.
 
